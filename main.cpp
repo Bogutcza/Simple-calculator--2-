@@ -1,6 +1,11 @@
 #include <iostream>
+#include <cstring>
 
-int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+void usage(char *programName) {
+    printf("Usage: %s number1 operation number\n", programName);
+    printf("Available operations:\n");
+    printf("\tadd\n");
+    printf("\tsub\n");
+    printf("\tmul\n");
+    printf("\n");
 }
